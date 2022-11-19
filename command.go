@@ -39,7 +39,7 @@ func (c *Command) String() string {
 // NewCommand creates and returns a new Command with given arguments for "git".
 func NewCommand(args ...string) *Command {
 	return &Command{
-		name: "git",
+		name: "git-lfs",
 		args: args,
 	}
 }
